@@ -1,0 +1,15 @@
+argparse
+colorama
+termcolor
+pathlib
+anybase32
+base36
+base45
+base58
+pybase62
+base91
+base92
+pybase100
+exifread
+opencv-python
+pytesseract
