@@ -72,17 +72,17 @@ pip install -r requirements.txt
 
 1. **解码单个字符串**  
     ```bash  
-    python3 main.py -b SGVsbG8gV29ybGQh  
+    python3 basecrack.py -b SGVsbG8gV29ybGQh  
     ```  
 
 2. **从文件解码**  
     ```bash  
-    python3 main.py -f encoded_file.txt  
+    python3 basecrack.py -f encoded_file.txt  
     ```  
 
 3. **魔法模式：多层嵌套编码解码**  
     ```bash  
-    python3 main.py -m "多层嵌套编码字符串"  
+    python3 basecrack.py -m "多层嵌套编码字符串"  
     ```  
 
 ### **Windows 使用说明**  
@@ -90,17 +90,17 @@ pip install -r requirements.txt
 1. **解码单个字符串**  
     打开命令提示符，进入项目目录，运行以下命令：  
     ```cmd  
-    python main.py -b SGVsbG8gV29ybGQh  
+    python basecrack.py -b SGVsbG8gV29ybGQh  
     ```  
 
 2. **从文件解码**  
     ```cmd  
-    python main.py -f encoded_file.txt  
+    python basecrack.py -f encoded_file.txt  
     ```  
 
 3. **魔法模式：多层嵌套编码解码**  
     ```cmd  
-    python main.py -m "多层嵌套编码字符串"  
+    python basecrack.py -m "多层嵌套编码字符串"  
     ```  
 
 输入图片为 **EXIF/OCR** 检测模式 **(-i/--image)**：
@@ -109,11 +109,11 @@ pip install -r requirements.txt
 
 **EXIF 数据**：解码图像 EXIF 数据 **(-e/--exif)**：
 
-    python basecrack-w.py -i image.jpg --exif
+    python basecrack.py -i image.jpg --exif
 
 **OCR 基编码检测**：使用 OCR 检测图像中的基编码 **(-c/--ocr)**：
 
-    python basecrack-w.py -i image.jpg --ocr
+    python basecrack.py -i image.jpg --ocr
 
 
 **注意：** Windows 用户需要确保 `python` 已正确安装并配置到系统路径中。如果没有安装，请从 [Python 官方网站](https://www.python.org/downloads/) 下载并安装。  
