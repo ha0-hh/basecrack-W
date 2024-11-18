@@ -59,7 +59,7 @@
 
 ### **1. 克隆仓库**  
 ```bash  
-git clone https://github.com/你的用户名/BaseCrack-W.git  
+git clone https://github.com/ha0/BaseCrack-W.git  
 cd BaseCrack-W  
 ```  
 
