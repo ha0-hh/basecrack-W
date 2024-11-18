@@ -1,9 +1,5 @@
 <h1 align="center">BaseCrack-W</h1>  
 <h4 align="center">基于多种编码格式的解码器</h4>  
-<p align="center">  
-   <img src="https://img.shields.io/badge/version-4.0-green.svg" title="version" alt="version">  
-    <a href="./LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/ha0/BaseCrack-W.svg"></a>  
-</p>  
 
 **BaseCrack-W** 是一个基于 Python 的升级版编码解码工具，支持广泛的字符编码方案。该工具扩展了常规编码的处理能力，新增支持 `Base45` 和多种改进解码策略。专为**CTF 挑战**设计，快速、可靠、模块化！  
 
